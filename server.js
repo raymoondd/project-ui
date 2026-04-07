@@ -54,7 +54,7 @@ function login() {
         setTimeout(() => {
             message.style.opacity = 0;
             setTimeout(() => {
-                window.location.href = "./pages/home.html";
+                window.location.href = "./home.html";
             }, 500);
         }, 2000);
     } else {
