@@ -123,7 +123,7 @@ h3:hover {
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
-    color: white;
+    color:  #ffffff;
     font-weight: bold;
     pointer-events: none;
     transition: 0.3s;
