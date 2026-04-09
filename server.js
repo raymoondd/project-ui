@@ -16,10 +16,16 @@ function login() {
     let password = document.getElementById("password").value.trim();
     let message = document.getElementById("message");
 
+    
+//random user name & password    
     const users = [
         { firstname: "raymond", password: "raymond" },
+        { firstname: "admin", password: "admin" },
+        { firstname: "jenina", password: "jenina" },
+        { firstname: "random", password: "random" },
+        { firstname: "user", password: "user" },
         { firstname: "tiffany", password: "tiffany" },
-        { firstname: "jenina", password: "jenina" }
+        
     ];
 
     const validUser = users.some(user =>
