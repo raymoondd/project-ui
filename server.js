@@ -68,4 +68,8 @@ function contact() {
         info.style.display = "block";
     }
 }
-
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        login();
+    }
+});
