@@ -13,6 +13,13 @@ function closeAlert() {
 
 }
 
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        login();
+    }
+});
+
+
 // Modified login function
 function login() {
     let firstname = document.getElementById("firstname").value.trim();
