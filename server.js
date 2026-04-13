@@ -11,15 +11,13 @@ function showAlert(text) {
 function closeAlert() {
     document.getElementById("customAlert").style.display = "none";
 
-}
-
-document.addEventListener("keydown", function(event) {
+    document.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
         login();
     }
 });
 
-
+}
 // Modified login function
 function login() {
     let firstname = document.getElementById("firstname").value.trim();
