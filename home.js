@@ -1,7 +1,7 @@
 // --- State Management ---
 let tasks = JSON.parse(localStorage.getItem('routineTasks')) || [];
 let pomodoroTimer;
-let timeLeft = 25 * 60; // 25 minutes in seconds
+let timeLeft = 0 * 0; // 25 minutes in seconds
 let isWorking = true;
 let isTimerRunning = false;
 let notifiedTasks = new Set();
