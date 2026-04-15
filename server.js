@@ -39,6 +39,7 @@ function login() {
         { firstname: "random", password: "random" },
         { firstname: "user", password: "user" },
         { firstname: "tiffany", password: "tiffany" },
+        { firstname: "universefamily", password: "universefamily" },
         
     ];
 
@@ -62,7 +63,7 @@ function login() {
         message.style.color = "red";
         message.style.opacity = 1;
 
-        showAlert("Sorry, you don’t have permission to continue!!"); // custom alert
+        showAlert("Sorry, you don’t have permission to continue."); // custom alert
 
         setTimeout(() => {
             message.style.opacity = 0;
